@@ -20,7 +20,7 @@ public class Main {
             if (a < 0 || b < 0 || c < 0 || (a + b) < c || (b + c) < a || (a + c) < b) {
                 throw new IllegalTriangleException("Không phải là tam giác");
             } else {
-                System.out.println("Không phải là tam giác");
+                System.out.println("Là tam giác");
             }
         } catch (IllegalTriangleException e) {
             System.err.println(e.getMessage());
